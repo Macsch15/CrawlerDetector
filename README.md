@@ -1,6 +1,8 @@
 ###Crawler Detector
 Fat-free and fast web crawler (bot) detector
 
+Special thanks for [Piwik team](http://piwik.org/team/) for the [crawlers regexes](https://github.com/piwik/device-detector/blob/master/regexes/bots.yml) :heart:
+
 ###Usage
 ```
 $ composer require macsch15/crawler-detector dev-master
