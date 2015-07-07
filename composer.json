@@ -1,5 +1,5 @@
 {
-    "name": "Macsch15/CrawlerDetector",
+    "name": "macsch15/crawler-detector",
     "type": "library",
     "description": "Fat-free and fast web crawler (bot) detector",
     "keywords": ["useragent", "crawler", "bot", "botdetector", "crawlerdetector"],
