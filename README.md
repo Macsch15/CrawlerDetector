@@ -3,7 +3,7 @@ Fat-free and fast web crawler (bot) detector
 
 ###Usage
 ```
-$ composer require Macsch15/CrawlerDetector
+$ composer require macsch15/crawler-detector
 ```
 
 ```php
