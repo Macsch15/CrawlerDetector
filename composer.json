@@ -1,0 +1,20 @@
+{
+    "name": "Macsch15/CrawlerDetector",
+    "type": "library",
+    "description": "Fat-free and fast web crawler (bot) detector",
+    "keywords": ["useragent", "crawler", "bot", "botdetector", "crawlerdetector"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Maciej Schmidt"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.4"
+    },
+
+    "autoload": {
+        "psr-4": { "CrawlerDetector\\": "src/" }
+    }
+}
