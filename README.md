@@ -18,7 +18,7 @@ require './vendor/autoload.php';
 use CrawlerDetector\Detector\CrawlerDetector;
 
 $detector = new CrawlerDetector();
-$detector->isCrawler($_SERVER['HTTP_USER_AGENT']); // returns true or false
+$detector->isCrawler($useragent); // returns true or false
 ```
 
 ###MIT Licence
