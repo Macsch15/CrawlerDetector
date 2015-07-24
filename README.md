@@ -19,6 +19,12 @@ use CrawlerDetector\Detector\CrawlerDetector;
 
 $detector = new CrawlerDetector();
 $detector->isCrawler($useragent); // returns true or false
+$detector->getCrawlerName(); // returns crawler name or null
+
+// example
+if ($detector->isCrawler($useragent) === true) {
+    echo $detector->getCrawlerName();
+} 
 ```
 
 ###MIT Licence
