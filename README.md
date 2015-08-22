@@ -27,6 +27,15 @@ if ($detector->isCrawler($useragent) === true) {
 } 
 ```
 
+###Unit testing
+```
+$ composer install --dev
+```
+
+```
+$ phpunit
+```
+
 ###MIT Licence
 
 Copyright (c) 2015 Maciej Schmidt
