@@ -30,9 +30,6 @@ if ($detector->isCrawler($useragent) === true) {
 ###Unit testing
 ```
 $ composer install --dev
-```
-
-```
 $ phpunit
 ```
 
