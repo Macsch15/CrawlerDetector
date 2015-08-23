@@ -5,6 +5,8 @@ Special thanks for [Piwik team](http://piwik.org/team/) for the [crawlers regexe
 
 ###Requirements
 - PHP 5.4 (or above)
+- Composer
+- PHPUnit (for automated testing)
 
 ###Usage
 ```
