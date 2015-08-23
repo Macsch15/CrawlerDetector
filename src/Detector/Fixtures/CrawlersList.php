@@ -120,7 +120,7 @@ return [
     'Yahoo Gemini' => 'Yahoo Ad monitoring.*yahoo-ad-monitoring-SLN24857.*',
     'Outbrain' => '.*Java.*outbrain',
     'HubPages' => 'HubPages.*crawlingpolicy',
-    'Pinterest' => 'Pinterest/\\d\\.\\d.*www.pinterest.com.*',
+    'Pinterest' => 'Pinterest/\\d\\.\\d.*(www.)?pinterest.com.*',
     'Site24x7 Website Monitoring' => 'Site24x7',
     'Monitor.Us' => 'www.monitor.us',
     'Lycos' => 'lycos',

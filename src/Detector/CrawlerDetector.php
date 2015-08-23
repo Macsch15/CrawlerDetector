@@ -20,9 +20,9 @@ class CrawlerDetector
     {
         $list = array_merge(require __DIR__ . '/Fixtures/CrawlersList.php');
 
-        foreach ($list as $crawler_regex) {
+        foreach ($list as $crawler_name => $crawler_regex) {
             if (preg_match('/(?:^|[^A-Z0-9\_\-])(?:' . str_replace('/', '\/', $crawler_regex) . ')/i', $user_agent, $matches)) {
-                $this->name = trim($matches[0]);
+                $this->name = trim($crawler_name);
 
                 return true;
             }
