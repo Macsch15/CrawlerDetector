@@ -1,4 +1,4 @@
-###Crawler Detector [![Build Status](https://travis-ci.org/Macsch15/CrawlerDetector.svg?branch=master)](https://travis-ci.org/Macsch15/CrawlerDetector) [![Coverage Status](https://coveralls.io/repos/Macsch15/CrawlerDetector/badge.svg?branch=master&service=github)](https://coveralls.io/github/Macsch15/CrawlerDetector?branch=master) 
+###Crawler Detector [![Build Status](https://travis-ci.org/Macsch15/CrawlerDetector.svg?branch=master)](https://travis-ci.org/Macsch15/CrawlerDetector) [![Coverage Status](https://coveralls.io/repos/Macsch15/CrawlerDetector/badge.svg?branch=master&service=github)](https://coveralls.io/github/Macsch15/CrawlerDetector?branch=master) [![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Macsch15/CrawlerDetector?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 Fat-free, standalone and fast web crawler (bot) detector
 
 Special thanks for [Piwik team](http://piwik.org/team/) for the [crawlers regexes](https://github.com/piwik/device-detector/blob/master/regexes/bots.yml) :heart:
