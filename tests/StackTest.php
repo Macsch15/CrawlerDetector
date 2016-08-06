@@ -1746,4 +1746,11 @@ class StackTest extends \PHPUnit_Framework_TestCase
 
         $this->assertSame('Generic Bot', CrawlerDetector::getCrawlerName());
     }
+
+    public function testNotProvidedUserAgent()
+    {
+        putenv('HTTP_USER_AGENT=Googlebot');
+
+        $this->assertTrue(CrawlerDetector::isCrawler());
+    }
 }
