@@ -19,25 +19,24 @@ require './vendor/autoload.php';
 
 use CrawlerDetector\Detector\CrawlerDetector;
 
-$detector = new CrawlerDetector();
-$detector->isCrawler($useragent); // returns true or false
-$detector->getCrawlerName(); // returns crawler name or null
+CrawlerDetector::isCrawler($useragent); // returns true or false
+CrawlerDetector::getCrawlerName(); // returns crawler name or null
 
-// example
-if ($detector->isCrawler($useragent) === true) {
-    echo $detector->getCrawlerName();
-} 
+// Example
+if (CrawlerDetector::isCrawler($useragent) === true) {
+    return CrawlerDetector::getCrawlerName();
+}
 ```
 
 ###Unit testing
 ```
-$ composer install --dev
+$ composer install
 $ phpunit
 ```
 
 ###MIT Licence
 
-Copyright (c) 2015 Maciej Schmidt
+Copyright (c) 2016 Maciej Schmidt
 
 Permission is hereby granted, free of charge, to any person obtaining a copy 
 of this software and associated documentation files (the "Software"), to deal
