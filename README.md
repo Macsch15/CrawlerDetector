@@ -4,7 +4,7 @@ Fat-free, standalone and fast web crawler (bot) detector
 Special thanks for [Piwik team](http://piwik.org/team/) for the [crawlers regexes](https://github.com/piwik/device-detector/blob/master/regexes/bots.yml) :heart:
 
 ###Requirements
-- PHP 5.4 (or above)
+- PHP 5.5 (or above)
 - Composer
 - PHPUnit (for automated testing)
 
