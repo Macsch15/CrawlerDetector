@@ -10,7 +10,7 @@ Special thanks for [Piwik team](http://piwik.org/team/) for the [crawlers regexe
 
 ###Usage
 ```
-$ composer require macsch15/crawler-detector dev-master
+$ composer require macsch15/crawler-detector 1.3.*
 ```
 
 ```php
