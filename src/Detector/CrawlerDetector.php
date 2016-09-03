@@ -1,19 +1,21 @@
 <?php
+
 namespace CrawlerDetector\Detector;
 
 class CrawlerDetector
 {
     /**
-     * Crawler name
-     * 
+     * Crawler name.
+     *
      * @var string
      */
     private static $name = null;
-    
+
     /**
-     * Detect crawler
-     * 
+     * Detect crawler.
+     *
      * @param string $user_agent
+     *
      * @return bool
      */
     public static function isCrawler($user_agent = null)
@@ -22,10 +24,10 @@ class CrawlerDetector
             $user_agent = getenv('HTTP_USER_AGENT');
         }
 
-        $list = array_merge(require __DIR__ . '/Fixtures/CrawlersList.php');
+        $list = array_merge(require __DIR__.'/Fixtures/CrawlersList.php');
 
         foreach ($list as $crawler_name => $crawler_regex) {
-            if (preg_match('/(?:^|[^A-Z0-9\_\-])(?:' . str_replace('/', '\/', $crawler_regex) . ')/i', $user_agent)) {
+            if (preg_match('/(?:^|[^A-Z0-9\_\-])(?:'.str_replace('/', '\/', $crawler_regex).')/i', $user_agent)) {
                 self::$name = trim($crawler_name);
 
                 return true;
@@ -36,8 +38,8 @@ class CrawlerDetector
     }
 
     /**
-     * Get crawler name
-     * 
+     * Get crawler name.
+     *
      * @return string
      */
     public static function getCrawlerName()

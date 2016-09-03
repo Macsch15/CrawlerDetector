@@ -1,4 +1,5 @@
 <?php
+
 namespace CrawlerDetector\Tests;
 
 use CrawlerDetector\Detector\CrawlerDetector;
