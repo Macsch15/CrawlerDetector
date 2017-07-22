@@ -1,14 +1,14 @@
-###Crawler Detector [![Build Status](https://travis-ci.org/Macsch15/CrawlerDetector.svg?branch=master)](https://travis-ci.org/Macsch15/CrawlerDetector) [![Coverage Status](https://coveralls.io/repos/Macsch15/CrawlerDetector/badge.svg?branch=master&service=github)](https://coveralls.io/github/Macsch15/CrawlerDetector?branch=master) 
+Crawler Detector [![Build Status](https://travis-ci.org/Macsch15/CrawlerDetector.svg?branch=master)](https://travis-ci.org/Macsch15/CrawlerDetector) [![Coverage Status](https://coveralls.io/repos/Macsch15/CrawlerDetector/badge.svg?branch=master&service=github)](https://coveralls.io/github/Macsch15/CrawlerDetector?branch=master) 
 Fat-free, standalone and fast web crawler (bot) detector
 
 Special thanks for [Piwik team](http://piwik.org/team/) for the [crawlers regexes](https://github.com/piwik/device-detector/blob/master/regexes/bots.yml) :heart:
 
-###Requirements
+Requirements
 - PHP 5.5 (or above)
 - Composer
 - PHPUnit (for automated testing)
 
-###Usage
+Usage
 ```
 $ composer require macsch15/crawler-detector 1.3.*
 ```
@@ -28,15 +28,15 @@ if (CrawlerDetector::isCrawler($useragent) === true) {
 }
 ```
 
-###Unit testing
+Unit testing
 ```
 $ composer install
 $ phpunit
 ```
 
-###MIT Licence
+MIT Licence
 
-Copyright (c) 2016 Maciej Schmidt
+Copyright (c) 2017 Maciej Schmidt
 
 Permission is hereby granted, free of charge, to any person obtaining a copy 
 of this software and associated documentation files (the "Software"), to deal
