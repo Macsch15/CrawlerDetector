@@ -6,7 +6,7 @@ Fat-free, standalone and fast web crawler (bot) detector
 Special thanks for [Piwik team](http://piwik.org/team/) for the [crawlers regexes](https://github.com/piwik/device-detector/blob/master/regexes/bots.yml) :heart:
 
 #### Requirements
-- PHP 5.5 (or above)
+- PHP 7.1 (or above)
 - Composer
 - PHPUnit (for automated testing)
 
@@ -17,7 +17,7 @@ $ composer require macsch15/crawler-detector 1.3.*
 
 ```php
 <?php
-require './vendor/autoload.php';
+require 'vendor/autoload.php';
 
 use CrawlerDetector\Detector\CrawlerDetector;
 
