@@ -11,7 +11,7 @@ class CrawlerDetector
      * @param string $user_agent
      * @return bool
      */
-    public static function isCrawler($user_agent = null) : bool
+    public static function isCrawler($user_agent = null): bool
     {
         if ($user_agent === null) {
             $user_agent = getenv('HTTP_USER_AGENT');
@@ -35,7 +35,7 @@ class CrawlerDetector
      *
      * @return string
      */
-    public static function getCrawlerName() : string
+    public static function getCrawlerName(): string
     {
         return self::$name;
     }
