@@ -1,10 +1,10 @@
 <?php
-
 namespace CrawlerDetector\Tests;
 
 use CrawlerDetector\Detector\CrawlerDetector;
+use PHPUnit\Framework\TestCase;
 
-class StackTest extends \PHPUnit_Framework_TestCase
+class StackTest extends TestCase
 {
     public function testABrowse()
     {
