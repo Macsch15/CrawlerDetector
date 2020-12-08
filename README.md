@@ -1,5 +1,5 @@
 ## Crawler Detector 
-[![Build Status](https://travis-ci.org/Macsch15/CrawlerDetector.svg?branch=master)](https://travis-ci.org/Macsch15/CrawlerDetector) [![Coverage Status](https://coveralls.io/repos/Macsch15/CrawlerDetector/badge.svg?branch=master&service=github)](https://coveralls.io/github/Macsch15/CrawlerDetector?branch=master) 
+[![Build Status](https://travis-ci.org/Macsch15/CrawlerDetector.svg?branch=master)](https://travis-ci.org/Macsch15/CrawlerDetector) [![Coverage Status](https://coveralls.io/repos/Macsch15/CrawlerDetector/badge.svg?branch=master&service=github)](https://coveralls.io/github/Macsch15/CrawlerDetector?branch=master) [![StyleCI](https://github.styleci.io/repos/38656289/shield?branch=master)](https://github.styleci.io/repos/38656289?branch=master) 
 
 Fat-free, standalone and fast web crawler (bot) detector
 
